@@ -72,7 +72,7 @@ fig_mapa_receita = px.scatter_geo(receita_estados,
                                   template = 'seaborn',
                                   hover_name = 'Local da compra',
                                   hover_data = {'lat': False, 'lon': False},
-                                  title = 'Receita por estado')
+                                  title = 'Receitas por estado')
 
 fig_receita_mensal = px.line(receita_mensal,
                              x = 'Mes',
